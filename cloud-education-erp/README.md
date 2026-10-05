@@ -22,7 +22,6 @@ This build talks to the **live server**:
 
 Download:
 
-- Release (recommended): https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/releases/tag/cloud-education-erp-v20261005
 - Direct file: https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/raw/main/cloud-education-erp/cloud-edu-erp-live-20261005.apk
 
 The 2026-10-04 release stays available at https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/releases/tag/cloud-education-erp-v20261004.
