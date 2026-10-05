@@ -11,6 +11,6 @@ Each product folder has its own `README.md` (what it is, version, SHA256, instal
 
 | Product | Folder | Latest build | Download |
 |---|---|---|---|
-| Cloud Education ERP (school app) | [`cloud-education-erp/`](cloud-education-erp/) | 0.1.0 – 2026-10-04 (live API) | [Releases](https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/releases/latest) · [APK](https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/raw/main/cloud-education-erp/cloud-edu-erp-live-20261004.apk) |
+| Cloud Education ERP (school app) | [`cloud-education-erp/`](cloud-education-erp/) | 0.1.0 – 2026-10-05 (live API) | [Releases](https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/releases/tag/cloud-education-erp-v20261005) · [APK](https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/raw/main/cloud-education-erp/cloud-edu-erp-live-20261005.apk) |
 
 Builds are currently debug-signed test builds, not Play Store releases.

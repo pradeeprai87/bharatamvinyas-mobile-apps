@@ -10,20 +10,22 @@ This build talks to the **live server**:
 
 | | |
 |---|---|
-| File | `cloud-edu-erp-live-20261004.apk` |
+| File | `cloud-edu-erp-live-20261005.apk` |
 | Package | `in.cloudedu.cloud_edu` |
 | Version | `0.1.0` (versionCode 1) |
-| Built | 2026-10-04 |
-| Size | 67,169,772 bytes (about 64 MiB / 67 MB) |
-| SHA256 | `39d19c08881181b592e6d260a9c0bb3896ea7bd0d8c3dc42d2f1984c356da91e` |
+| Built | 2026-10-05 |
+| Size | 65,190,702 bytes (about 62 MiB / 65 MB) |
+| SHA256 | `e49e21192404ea419bc3f0772f633e66b5914edecc35523584fa9c5949787cba` |
 | Signing | debug key (test build, not a Play Store release) |
 | ABIs | arm64-v8a, armeabi-v7a, x86_64 (fat APK) |
 | Permissions | INTERNET, ACCESS_NETWORK_STATE, ACCESS_FINE/COARSE_LOCATION |
 
 Download:
 
-- Release (recommended): https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/releases/tag/cloud-education-erp-v20261004
-- Direct file: https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/raw/main/cloud-education-erp/cloud-edu-erp-live-20261004.apk
+- Release (recommended): https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/releases/tag/cloud-education-erp-v20261005
+- Direct file: https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/raw/main/cloud-education-erp/cloud-edu-erp-live-20261005.apk
+
+The 2026-10-04 release stays available at https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/releases/tag/cloud-education-erp-v20261004.
 
 ## Install on Android
 
@@ -31,9 +33,9 @@ Download:
 2. Open the download link on the phone and download the APK.
 3. Open the file. When Android asks, allow **Install unknown apps** for your browser or file manager (Settings -> Apps -> Special access -> Install unknown apps).
 4. Tap **Install**. If Play Protect warns about an unknown developer (debug-signed test build), choose **Install anyway**.
-5. Open **cloud_edu**, enter email and password, sign in. The phone needs internet access.
+5. Open **cloud_edu**. Choose the organization (Bharatam Vinyas for platform staff, or the school), then enter email and password. The phone remembers the organization and email, not the password. The phone needs internet access.
 
-Verify the download (optional): `sha256sum cloud-edu-erp-live-20261004.apk` must match `SHA256SUMS`.
+Verify the download (optional): `sha256sum cloud-edu-erp-live-20261005.apk` must match `SHA256SUMS`.
 
 ## Login accounts
 
@@ -49,7 +51,8 @@ Passwords are **not** stored in this repository. The owner gives them separately
 
 ## Known behaviour
 
-- The SaaS roles (`ops@`, `admin@`, `crm@`, `support@`) can sign in in the app, but the mobile screens are designed for **school roles**, so those accounts see a limited or empty experience. Use the web panels for SaaS administration.
+- Platform staff and school staff use this same app. After a correct login the phone opens that role's home: schools, quotations, invoices, subscriptions and support for Bharatam Vinyas; the school desks for a school.
+- The organization search on the sign-in screen needs the 2026-10-05 server code. Until that deploy, the list cannot load.
 - Debug-signed build: it cannot be updated over a build signed with a different key; uninstall first if install fails with "package conflicts".
 
 ## Troubleshooting
