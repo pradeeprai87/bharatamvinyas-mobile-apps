@@ -14,3 +14,5 @@ Each product folder has its own `README.md` (what it is, version, SHA256, instal
 | Cloud Education ERP (school app) | [`cloud-education-erp/`](cloud-education-erp/) | 0.1.0 – 2026-10-05 (live API) | [APK](https://github.com/pradeeprai87/bharatamvinyas-mobile-apps/raw/main/cloud-education-erp/cloud-edu-erp-live-20261005.apk) |
 
 Builds are currently debug-signed test builds, not Play Store releases.
+
+- [Advocate Panel](cloud-advocate-panel/) - live link https://legal.bharatamvinyas.com/downloads/advocate-panel.apk
